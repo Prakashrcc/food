@@ -1,0 +1,117 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+ 
+  
+  <servlet>
+  	<servlet-name>foodbridge</servlet-name>
+  	<servlet-class>
+  	org.springframework.web.servlet.DispatcherServlet
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/register_user</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/login_user</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/kitchen</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/kitchenmenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/addchef</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/vendorMenu</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/addDish</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/deleteDish</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/vendorAccount</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/editVendorKitchen</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/addToMenu</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/removeToMenu</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/editAddress</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/placeOrder</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/orderConfirmation</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/acceptOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/cancelOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/deliverOrder</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/deliverOrderComplete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/account</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/editAccount</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>foodbridge</servlet-name>
+  	<url-pattern>/takeOrder</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
